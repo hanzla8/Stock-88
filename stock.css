@@ -1,0 +1,259 @@
+
+
+
+/* Stock Section 1st login page */
+:root {
+    --color-body: #D01982;
+    --color-back: #F3CBD4;
+    --color-hover: #9E085D;
+    --main-body: #E7EBDF;
+    --table-line: #C7C7C7;
+    
+}
+body {
+    background: #fff;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#logo-img{
+    width: 70px;
+    height: auto;
+}
+/* Login Form Section */
+.main-card{
+    width: 360px;
+    height: 480px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px black;
+    background-color: #fff;
+
+}
+#buttons1{
+    background-color: #D01982;
+    color: white;
+    width: 60%;
+    height: 25px;
+    line-height: 22px;
+    font-size: 15px;
+    border-radius: 4px;
+    border-color: #D01982;
+}
+
+
+/* it is our first container, where I make my first div, in which ending in the last */
+#first-con{
+    /* border: 1px solid #FF3399; */
+    border-radius: 0px 30px 30px 30px;
+    line-height: 25px;
+}
+
+#side_nav{
+    background-color: var(--color-body);
+    min-width: 250px;
+    max-width: 250px;
+    height: 100vh;
+    transition: all 0.2s;
+    
+}
+.sidebar{
+    position: fixed;
+    float: left;
+    width: 18%;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    margin-left: 20px;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9E085D;
+    border-radius: 10px;
+}
+
+
+/* It is Our contentplace */
+.content{
+    min-height: 100vh;
+    max-width: 82%;
+    position: relative;
+    left: 252px;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+}
+#board-circle{
+    width: 130px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: white;
+    color: #9E085D;
+    box-shadow: 3px 4px 4px 0px black;
+}
+
+
+.sidebar li a.active{
+    background: #9E085D;
+    border-radius: 2px;
+    height: 35px;
+    line-height: 35px;
+}
+.sidebar li a:hover {
+    background: #9E085D;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: px solid #660036;
+  }
+
+.sidebar li a{
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #660036;
+    border-radius: 2px;
+    width: 100%;
+}
+
+/* Sidebar SCroller Code */
+.scrollable-table1 {
+    width: 250px;
+    height: 60vh;
+    padding-right: 10px;
+    /* visibility: hidden; */
+    overflow: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* Investor List Responsivnes */
+
+/* These All media Query for page width */
+@media (max-width: 1115px) {
+    #side_nav{
+        margin-left: -250px;
+        position: fixed;
+        min-height: 100vh;
+        z-index: 1;
+    }
+    #side_nav.active{
+        margin-left: 0;
+    }
+    .content{
+        max-width: 100%;
+    }
+    .content.ms-1
+    {
+        left:0px;
+    }
+}
+@media (max-width: 991px) {
+    #side_nav{
+        margin-left: -250px;
+        position: fixed;
+        min-height: 100vh;
+        z-index: 1;
+    }
+
+    #side_nav.active{
+        margin-left: 0;
+    }
+    .content{
+        max-width: 100%;
+    }
+    .content.ms-1
+    {
+        left:0px;
+    }
+}
+
+@media (max-width: 767px) {
+    #side_nav{
+        margin-left: -250px;
+        position: fixed;
+        min-height: 100vh;
+        z-index: 1;
+    }
+  
+    #side_nav.active{
+        margin-left: 0;
+    }
+    #navb ul li{
+        font-size: small;
+    }
+    .content{
+        max-width: 100%;
+    }
+    .content.ms-1
+    {
+        left:0px;
+    }
+}
+
+
+
+/* heading media Queries  */
+/* media Query */
+@media screen and (max-width: 768px) {
+
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 19px;
+    }
+    
+    h2 {
+        font-size: 17px; 
+    }
+    
+    h3 {
+        font-size: 15px;
+    }
+    h4{
+        font-size: 14px;
+    }
+    h5{
+        font-size: 13px;
+    }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 576px) {
+
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 19px; 
+    }
+    
+    h2 {
+        font-size: 17px; 
+    }
+    
+    h3 {
+        font-size: 15px;
+    }
+    h4{
+        font-size: 14px;
+    }
+    h5{
+        font-size: 13px;
+    }
+}
+
+

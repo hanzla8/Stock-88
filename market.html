@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Stock Exchange</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="stock.css">
+    <link rel="shortcut icon" href="Favicon.png" type="image/x-icon">
+
+
+    <!-- font awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .top-section1 {
+            margin-right: auto;
+            justify-content: space-between;
+            text-align: center;
+
+        }
+
+        #togler {
+            left: auto;
+        }
+
+        .card-way0 a {
+            justify-content: space-between;
+            font-weight: bold;
+            color: black;
+        }
+
+        .card-way a {
+            justify-content: space-between;
+            font-weight: bold;
+            color: black;
+        }
+        .card-way a:hover{
+            color: #fff;
+        }
+
+        .scrollable-table-market {
+            width: 100%;
+            height: 100vh;
+            overflow: auto;
+            overflow-y: auto;
+            padding: 5px;
+        }
+
+        .buttonSetting {
+            width: 150px;
+            height: 70px;
+            border-radius: 30px;
+            font-size: 25px;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Second Seaction Starting Here-->
+    <div id="first-con" class="main-container" style="background-color: #C7C7C7;">
+        <div class="sidebar" id="side_nav">
+            <div class="header-box">
+                <h1 class="fs-4 text-center text-white"><a class="text-decoration-none text-white"
+                        href="index.html">Stock
+                        Share</a>
+                </h1>
+                <div id="board-circle" class="mx-auto">
+                    <h4 class="mx-auto text-center pt-5">Malldia</h4>
+                </div>
+                <button class="btn d-md-none d-block close-btn px-1 py-0 text-white"><i
+                        class="fa-solid fa-bars-staggered"></i></button>
+            </div>
+
+            <div class="text-center pt-1">
+                <h6 class="text-white">EU/PL48/5475447</h6>
+                <p class="text-white">Maldia E Ticaret Tekstil Sanayi Tic</p>
+            </div>
+
+            <!--ul li link Sidebar Scrolbar -->
+            <div class="scrollable-table1">
+                <ul class="list-unstyled px-2 py-3">
+
+                    <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-bullhorn"></i>&nbsp;Alarms</a>
+                    </li>
+
+                    <li class=""><a href="market.html" class="text-decoration-none text-white d-block active"><i
+                                class="fa-solid fa-shop"></i> &nbsp;Markets</a></li>
+
+                    <li class=""><a href="MyAccount.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-coins"></i>&nbsp; My Account</a></li>
+
+                    <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-cart-shopping"></i>&nbsp;Buy-Sell Transaction</a></li>
+
+                    <li class=""><a href="Volume.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-wallet"></i>&nbsp;Volume</a></li>
+
+                    <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+                                class="fa-regular fa-file"></i> &nbsp;Language option</a></li>
+
+                    <li class=""><a href="investorList.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-warehouse"></i>&nbsp;Investor Link</a></li>
+
+                    <li class=""><a href="StockList.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-cart-shopping"></i>&nbsp;Stock List</a></li>
+
+                    <li class=""><a href="StockActivation.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-brands fa-stack-exchange"></i>&nbsp;Stock Activation</a></li>
+
+                    <li class=""><a href="PaymentTransiction.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-money-bill"></i>&nbsp;Payment Transaction</a></li>
+
+                    <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-comment"></i>&nbsp;Comments</a></li>
+
+                    <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-newspaper"></i>&nbsp;News</a></li>
+
+                    <li class=""><a href="investerTerm.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-handshake"></i>&nbsp;Invester Term</a></li>
+
+                    <li class=""><a href="malldiaComissionIncome.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-coins"></i>&nbsp;Commission Income</a></li>
+
+                    <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-gear"></i>&nbsp;Setting</a></li>
+                </ul>
+            </div>
+
+            <!-- Sidebar last btn -->
+            <div class="text-center py-5">
+                <i class="fa-solid fa-right-from-bracket"><a href="" class="mx-3 text-decoration-none text-white"
+                        style="font-family: Bai Jamjuree;">Exit</a></i><br>
+            </div>
+
+        </div>
+
+        <!-- This is a another Side Section -->
+        <div class="content ms-1 d-flex w-100">
+
+            <button id="togler" class="btn px-1 py-0 open-btn fixed-top"><i
+                    class="fa-solid fa-bars-staggered fs-4"></i></button>
+
+            <!-- First Butoon Row -->
+            <div class="container py-4 text-center">
+                <div class="row justify-content-center">
+                    <div class="offset-md-4 col-md-2">
+                        <a href="" class="btn btn-success btn-block mb-3 buttonSetting">Get</a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="" class="btn btn-danger btn-block mb-3 buttonSetting">Sell</a>
+                    </div>
+                    <!-- DropDown -->
+                    <div class="col-md-4">
+                        <div class="dropdown open">
+                            <button class="btn btn dropdown-toggle" type="button" id="triggerId"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Religion
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <a href="" class="text-decoration-none text-dark"><img src="./stockImg/turkey.png" width="30px" class="my-1 mx-2"> TR</a><br>
+                                <a href="" class="text-decoration-none text-dark"><img src="./stockImg/usa.png" width="30px" class="my-1 mx-2"> US</a><br>
+                                <a href="" class="text-decoration-none text-dark"><img src="./stockImg/germany.png" width="30px" class="my-1 mx-2"> TR</a><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card Ways Link,In whick written Company Stock Shares -->
+            <div class="container mx-auto">
+                <div class="card-way0 mx-auto text-center">
+                    <div class="row offset-md-1">
+                        <div class="col-md-2">
+                            <a class="btn btn-light text-dark text-decoration-none" href="">EU Stock Shares</a>
+                        </div>
+                        <div class="col-md-2">
+                                <a class="btn btn-light text-dark text-decoration-none" href="">TR Stock Shares</a>
+                        </div>
+                        <div class="col-md-2">
+                                <a class="btn btn-light text-dark text-decoration-none" href="">US Stock Shares</a>
+                        </div>
+                        <div class="col-md-2">
+                                <a class="btn btn-light text-dark text-decoration-none" href="">AS Stock Shares</a>
+                        </div>
+                        <div class="col-md-2">
+                                <a class="btn btn-light text-dark text-decoration-none" href="">AFK Stock Shares</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- another link + Table -->
+
+            <div class="pt-5">
+                <div class="container">
+                    <div class="card-way mx-auto text-center">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <button class="btn btn">
+                                    <a class="text-decoration-none d-flex" href="">Rsng Shares </a>
+                                </button>
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn btn-">
+                                    <a class="text-decoration-none d-flex" href="">Fallng Shares</a>
+                                </button>
+                            </div>
+                            <div class="col-md-3">
+                                <button class="btn btn-">
+                                    <a class="text-decoration-none d-flex" href="volGrow.html">Volume Growng</a>
+                                </button>
+                            </div>
+                            <div class="col-md-3">
+                                <button class="btn btn-">
+                                    <a class="text-decoration-none" href="">Number Increasng</a>
+                                </button>
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn btn-">
+                                    <a class="text-decoration-none" href="">Stock Indces</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- This is the table Row -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="scrollable-table-market">
+                            <form class="d-flex w-100" role="search">
+                                <input class="form-control me-2 mb-1" type="search" placeholder="Search"
+                                    aria-label="Search">
+                            </form>
+                            <table class="table bg-white">
+                                
+                                <thead>
+                                    <tr>
+                                        <th>Share</th>
+                                        <th>End</th>
+                                        <th>Buying</th>
+                                        <th>Sales %</th>
+                                        <th>Diffrence</th>
+                                        <th>Lowest</th>
+                                        <th>Highest</th>
+                                        <th>Wap</th>
+                                        <th>Volume (Lot) </th>
+                                        <th>Volume (₺)</th>
+                                        <th>Fnshng </th>
+                                        <th>Add/Remove</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>MALLDIA</th>
+                                        <td>86,55</td>
+                                        <td>86,55 </td>
+                                        <td>86,60</td>
+                                        <td>-0,35 </td>
+                                        <td>86,45</td>
+                                        <td>89,80 </td>
+                                        <td>87,85 </td>
+                                        <td>4.373.425 </td>
+                                        <td>384.202.732,85</td>
+                                        <td>18:10 </td>
+                                        <td>
+                                            <button class="btn btn-danger">
+                                                ADD
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <!-- Add more data rows as needed -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Blog Content Div Here -->
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div><br>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+
+
+    <script src="stock.js"></script>
+</body>
+
+</html>

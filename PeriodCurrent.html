@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Stock Exchange</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="stock.css">
+    <link rel="shortcut icon" href="Favicon.png" type="image/x-icon">
+
+
+    <!-- font awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        /* Content Line */
+
+        #content1 {
+            width: 100%;
+        }
+
+        #togler {
+            left: auto;
+        }
+
+        .box-maintain {
+            padding-top: 100px;
+            height: auto;
+            font-size: 22px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        #card1 {
+            background-color: #D01982;
+        }
+
+        @media (max-width:991px) {
+            .box-maintain {
+                font-size: 18px;
+            }
+        }
+
+        .box-maintain a.active {
+            background-color: #9E085D;
+        }
+
+        .box-maintain a:hover {
+            background-color: #9E085D;
+        }
+
+
+
+        .scrollable-tableStock {
+            width: 100%;
+            height: 100vh;
+            overflow: auto;
+            overflow-y: auto;
+            padding: 5px;
+        }
+    </style>
+
+</head>
+
+
+
+
+
+
+<body>
+    <!-- Second Seaction Starting Here-->
+    <div id="first-con" class="main-container d-flex">
+        <div class="sidebar" id="side_nav">
+            <div class="header-box">
+                <h1 class="fs-4 pt-2 text-center text-white"><a class="text-decoration-none text-white"
+                        href="index.html">Stock
+                        Share</a>
+                </h1>
+                <div id="board-circle" class="mx-auto">
+                    <h4 class="mx-auto text-center pt-5">Malldia</h4>
+                </div>
+                <button class="btn d-md-none offset-sm-10 d-block close-btn px-1 py-0 text-white"><i
+                        class="fa-solid fa-bars-staggered"></i></button>
+            </div>
+
+            <div class="text-center pt-1">
+                <h6 class="text-white">EU/PL48/5475447</h6>
+                <p class="text-white">Maldia E Ticaret Tekstil Sanayi Tic</p>
+            </div>
+
+            <!-- UL Li Scroller Table -->
+            <div class="scrollable-table1">
+                <ul class="list-unstyled px-2 py-3">
+                    <!-- Sidebar Links -->
+                    <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-bullhorn"></i>
+                            &nbsp;Alarms</a>
+                    </li>
+
+                    <li class=""><a href="market.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-shop"></i> &nbsp;Markets</a></li>
+
+                    <li class=""><a href="MyAccount.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-coins"></i>&nbsp; My Account</a></li>
+
+                    <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-cart-shopping"></i>&nbsp;Buy-Sell Transaction</a></li>
+
+                    <li class=""><a href="Volume.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-wallet"></i>&nbsp;Volume</a></li>
+
+                    <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+                                class="fa-regular fa-file"></i> &nbsp;Language option</a></li>
+
+                    <li class=""><a href="investorList.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-warehouse"></i>&nbsp;Investor Link</a></li>
+
+                    <li class=""><a href="StockList.html" class="text-decoration-none text-white d-block active"><i
+                                class="fa-solid fa-cart-shopping"></i>&nbsp;Stock List</a></li>
+
+                    <li class=""><a href="StockActivation.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-brands fa-stack-exchange"></i>&nbsp;Stock Activation</a></li>
+
+                    <li class=""><a href="PaymentTransiction.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-money-bill"></i>&nbsp;Payment Transaction</a></li>
+
+                    <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-comment"></i>&nbsp;Comments</a></li>
+
+                    <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-newspaper"></i>&nbsp;News</a></li>
+
+                    <li class=""><a href="investerTerm.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-handshake"></i>&nbsp;Invester Term</a></li>
+
+                    <li class=""><a href="malldiaComissionIncome.html" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-coins"></i>&nbsp;Commission Income</a></li>
+
+                    <li class=""><a href="#" class="text-decoration-none text-white d-block"><i
+                                class="fa-solid fa-gear"></i>&nbsp;Setting</a></li>
+                </ul>
+            </div>
+
+            <!-- Sidebar last btn -->
+            <div class="text-center py-5">
+                <i class="fs-5 fa-solid fa-right-from-bracket"><a href="" class="mx-3 text-decoration-none text-white"
+                        style="font-family: Bai Jamjuree;">Exit</a></i><br>
+            </div>
+
+        </div>
+
+        <!-- This is a another Side Section -->
+
+        <div class="content ms-1" id="content1">
+
+            <button id="togler" class="btn px-1 py-0 open-btn fixed-top"><i
+                    class="fa-solid fa-bars-staggered fs-4"></i></button>
+
+            <div class="container">
+                <div class="box-maintain mx-2">
+                    <div class="row">
+                        <div class="col-md-2 card" id="card1">
+                            <a class="text-decoration-none text-white" href="genral.html">General</a>
+                        </div>
+
+                        <div class="col-md-2 card" id="card1">
+                            <a class="text-decoration-none text-white" href="stockNews.html">Stock News</a>
+                        </div>
+
+                        <div class="col-md-2 card" id="card1">
+                            <a class="text-decoration-none text-white" href="StockSumry.html">Stock Summary</a>
+                        </div>
+
+                        <div class="col-md-3 card" id="card1">
+                            <a class="text-decoration-none text-white" href="HistoricalData.html">Hstorcal Data </a>
+                        </div>
+
+                        <div class="col-md-3 card" id="card1">
+                            <a class="text-decoration-none text-white active" href="PeriodCurrent.html">Perod/Current
+                                Closng</a>
+                        </div>
+                    </div>
+
+                    <!-- Another Section  -->
+
+
+                    <!-- table Section -->
+                    <div class="container my-5">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead style="background-color: #D01982; color: #fff;">
+                                    <tr>
+                                        <th>Term Date </th>
+                                        <th>Price</th>
+                                        <th>Closng</th>
+                                        <th>High</th>
+                                        <th>Low</th>
+                                        <th>Volume</th>
+                                        <th>Difference</th>
+                                        <th>Closng Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Perod.2 / 01.09.2023-30.12.2023</td>
+                                        <td>19,22</td>
+                                        <td style="color: rgb(132, 214, 7);">100</td>
+                                        <td>22</td>
+                                        <td>18</td>
+                                        <td>1 m</td>
+                                        <td style="color: rgb(132, 214, 7);">120%</td>
+                                        <th style="color: rgb(132, 214, 7);">Devam Edyor</th>
+                                    </tr>
+                                    <!-- Another tr  -->
+                                    <tr>
+                                        <td>Perod.2 / 01.09.2023-30.12.2023</td>
+                                        <td>19,22</td>
+                                        <td style="color: rgb(132, 214, 7);">100</td>
+                                        <td>22</td>
+                                        <td>18</td>
+                                        <td>1 m</td>
+                                        <td style="color: rgb(132, 214, 7);">120%</td>
+                                        <th>30.12.2023</th>
+                                    </tr>
+                                    <!-- 3rd TR  -->
+                                    <tr>
+                                        <td>Perod.2 / 01.09.2023-30.12.2023</td>
+                                        <td>19,22</td>
+                                        <td style="color: rgb(132, 214, 7);">100</td>
+                                        <td>22</td>
+                                        <td>18</td>
+                                        <td>1 m</td>
+                                        <td style="color: rgb(132, 214, 7);">120%</td>
+                                        <th>30.12.2023</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <!-- Blog Content Div Here -->
+        </div>
+
+
+
+
+    </div><br>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+
+    <script src="stock.js"></script>
+</body>
+
+</html>
